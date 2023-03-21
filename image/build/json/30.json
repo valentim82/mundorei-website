@@ -1,0 +1,59 @@
+{
+  "name": "Nomad Skulls #30",
+  "description": "Make nft art fun again",
+  "image": "ipfs://NewUriToReplace/30.png",
+  "dna": "9a57a6caa4852a871299e1d73b5b9eeffb0a0f71",
+  "edition": 30,
+  "date": 1674848049136,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "Fundo noturno"
+    },
+    {
+      "trait_type": "body",
+      "value": "Corpo 01"
+    },
+    {
+      "trait_type": "mouth",
+      "value": "boca cristal"
+    },
+    {
+      "trait_type": "adornment",
+      "value": "Vazio"
+    },
+    {
+      "trait_type": "clothes",
+      "value": "camiseta listrada 02"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "olho 01"
+    },
+    {
+      "trait_type": "hat",
+      "value": "cabelo black"
+    },
+    {
+      "trait_type": "necklaces",
+      "value": "vazio"
+    },
+    {
+      "trait_type": "beard",
+      "value": "vazio"
+    },
+    {
+      "trait_type": "head",
+      "value": "vazio"
+    },
+    {
+      "trait_type": "adornment_eyes",
+      "value": "vazio"
+    },
+    {
+      "trait_type": "textura",
+      "value": "lula_0000_textura"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
