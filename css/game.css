@@ -9,7 +9,8 @@ body {
 }
 .wrapper {
   box-sizing: content-box;
-  width: 26.87em;
+  width: 40.87em;
+  padding-top: 10rem;
   padding: 2.5em 3em;
   background-color: #ffffff;
   position: absolute;

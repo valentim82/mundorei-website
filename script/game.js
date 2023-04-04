@@ -67,7 +67,7 @@ const movesCounter = () => {
 };
 
 //Pick random objects from the items array
-const generateRandom = (size = 4) => {
+const generateRandom = (size = 5) => {
   //temporary array
   let tempArray = [...items];
   //initializes cardValues array
@@ -84,7 +84,7 @@ const generateRandom = (size = 4) => {
   return cardValues;
 };
 //here
-const matrixGenerator = (cardValues, size = 4) => {
+const matrixGenerator = (cardValues, size = 5) => {
   gameContainer.innerHTML = "";
   cardValues = [...cardValues, ...cardValues];
   //simple shuffle
@@ -171,6 +171,7 @@ startButton.addEventListener("click", () => {
   interval = setInterval(timeGenerator, 1000);
   //initial moves
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+
   initializer();
 });
 
