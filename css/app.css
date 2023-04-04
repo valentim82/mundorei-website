@@ -3042,9 +3042,6 @@ video {
     display: flex
 }
 
-.game-rules{
-    
-}
 
 .inline-flex {
     display: inline-flex
@@ -4196,8 +4193,18 @@ input[type=number] {
 .hero-image {
     height: calc(100vh - 100px - 300px);
     min-height: 300px;
-    padding-bottom: 30rem;
-    /* padding-top: 30rem; */
+  
+}
+
+.game-box {
+    height: calc(100vh - 100px - 300px);
+    min-height: 300px;
+    padding-top: 50rem;
+    display: none;
+  
+}
+.game{
+    padding-top: 10rem;
 }
 
 @media (max-width:640px) {

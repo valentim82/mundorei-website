@@ -171,6 +171,7 @@ startButton.addEventListener("click", () => {
   interval = setInterval(timeGenerator, 1000);
   //initial moves
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+  document.querySelector('.game-box').style.display = "block";
 
   initializer();
 });

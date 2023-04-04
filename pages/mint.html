@@ -25,6 +25,8 @@
 				families: ["Verdana:regular,700"]
 			}
 		});
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	</script>
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
 	<script type="text/javascript">
@@ -304,7 +306,7 @@
 		</div>
 		<main class="flex flex-grow flex-col w-full justify-start items-center px-6 relative">
 		
-			<div class="w-[90vw] hero-image mt-[100px] md:mt-[70px]" style="opacity:1;transform:none">
+			<div class="w-[90vw] game-box mt-[100px] md:mt-[70px]" style="opacity:1;transform:none">
 				<div class="wrapper">
 					<div class="stats-container">
 					  <div id="moves-count"></div>
@@ -320,14 +322,14 @@
 			</div>
 			<div
 				class="relative bottom-[2vh] sm:bottom-[4vh] flex justify-end flex-col items-center gap-6 px-6 bg-white/90 p-4">
-				<div class="game-rules flex flex-col gap-3" style="opacity:1">
+				<div id = "game-rules" class="flex game flex-col gap-3" style="opacity:1">
 					<div class="body-default sm:body-large lg:body-largest text-center flex-shrink-0">Rules to follow <br> 
-						<p class="small"> Mint can be fun, why not make it a game  </p>
-						<p class="small"> Yes, the game is simple, but more collection will come </p>
-						<p class="small">  Each minute add a 0.05 ETH, it start in 0.04 ETH </p>
-						<p class="small"> Each game cost 1 poligon, and you got 10 mundo</p>
-						<p class="small"> The winner, take it all</p>
-						<p class="small"> Not all the rules are here, but the rules are honest.</p>
+						<p> Mint can be fun, why not make it a game  </p>
+						<p> Yes, the game is simple, but more collection will come </p>
+						<p>  Each minute add a 0.05 ETH, it start in 0.04 ETH </p>
+						<p> Each game cost 1 poligon, and you got 10 mundo from it</p>
+						<p> The winner, take it all (yes, all nfts you can hunt)</p>
+						<p> Not all the rules are here, but the rules are honest.</p>
 					
 					</div>
 				</div>
@@ -354,6 +356,23 @@
 	<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 	<script src="/script/game.js"></script>
+
+
+<script>
+// This uses an id
+
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("#game-rules").hide();
+		});
+	});
+
+
+
+</script>
+
+		
+
 </body>
 
 </html>
