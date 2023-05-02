@@ -638,7 +638,7 @@ figcaption {
   padding: 0rem;
 }
 
-.page-padding {
+.section-multi {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
 }
@@ -1403,7 +1403,7 @@ figcaption {
 
 .multi_img.is--1 {
   width: 100%;
-  max-width: 50rem;
+  max-width: 60rem;
 }
 
 .multi_content-wrap {
@@ -5010,6 +5010,11 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
+
+  .story_img-wrap.mecha {
+  display: none;
+  }
+
   h1 {
     line-height: 1;
   }
